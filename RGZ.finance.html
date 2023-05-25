@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang=ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница 2</title>
+    <link rel="stylesheet" href="RGZStyle.css">
+    <video autoplay muted loop id="video-bg">
+        <source src="D:/WEB/web-programming-lab/RGZ/videoBoots.mp4" type="video/mp4">
+    </video>
+</head>
+    <body style="background-color: #292929">
+
+        <script>
+
+            function kurs() {
+                
+                let price = [9.20, 9.35, 9.49, 9.60, 9.29,
+                            9.38, 9.57, 9.58, 9.07, 9.09,
+                            9.05, 9.07, 9.02, 9.08, 9.23, 9.21,
+                            9.26, 9.34, 9.33, 9.38];
+
+                let sumPrice = 0;
+                let average = document.getElementById('average');
+                let max = document.getElementById('max');
+                let min = document.getElementById('min');
+                for (let i = 0; i < price.length; i++) {
+                    sumPrice = sumPrice + price[i];
+                }
+
+                let priceAverage = sumPrice / price.length;
+                average.innerHTML = 'Среднее значение: ' + priceAverage;
+
+                let sumOfSquares = 0;
+                let standardDeviation = document.getElementById('standardDeviation')
+                for (let i = 0; i < price.length; i++) {
+                    sumOfSquares += (price[i] - priceAverage)**2;
+                    }
+                
+                standardDeviation.innerHTML = 'Среднеквадратическое отклонение: ' + Math.sqrt(sumOfSquares / price.length).toFixed(4);
+
+                max.innerHTML = 'Максимальное значение: ' + Math.max.apply(0, price);
+                min.innerHTML = 'Минимальное значение: ' + Math.min.apply(0, price);
+
+                }
+
+        </script>
+
+        <main>
+        <div>
+            <a href="RGZ.html"; target="_parent">
+                <img src="OR-Group_158_86.png" height="90" width="140" style="position: absolute; left: 4cm; top: 7px;">
+            </a>
+                <div class = 'company'><a href="RGZ.O.Company.html"; target="_parent">О компании</a></div>
+                <div class = "financeAnalit"><a href="RGZ.finance.html"; target="_parent">Основные финансовые показатели</a></div>
+                <div class="contact"><a href="RGZ.Contact.html"; target="_parent">Контактные данные</a></div>
+                <div class="video"><a href="RGZ.video.html"; target="_parent">Ознакомительное видео</a></div>
+        </div>
+
+                <div class="info">
+                    <b><p>Современная торговая</p></b>
+                    <b><p>платформа,</p></b>
+                    <b><p>маркетплейс,</p></b>
+                    <b>экосистема сервисов</b>
+                </div>
+
+                <div style="position: absolute; background-color: red; width: 2px; height: 490px; left: 925px; top: 210px;"></div>
+
+                <div style="position: absolute; background-color: red; width: 390px; height: 2px; left: 925px; top: 505px;"></div>
+
+                <div style="position: absolute; font-size: 30px; color: white; left: 935px; top: 205px;"><b>Капитализация:</b><br> 508.75 млн RUB</div>
+
+                <div style="position: absolute; font-size: 30px; color: white; left: 935px; top: 280px;"><b>Общее число акций:</b><br> 113.06 млн шт</div>
+
+                <div style="position: absolute; font-size: 30px; color: white; left: 935px; top: 355px;"><b>Free-float: </b><br> 45.00%</div>
+
+                <div style="position: absolute; font-size: 30px; color: white; left: 935px; top: 430px;"><b>Уровень ликвидности: </b><br>Средний</div>
+
+                <b style="position: absolute; font-size: 30px; color: white; left: 85%; top: 50px;">Таблица с ценами закрытия акций</b>
+
+                <button style="background-color: rgba(255, 255, 255, 0); position: absolute; color: red; left: 85%; top: 622px;" onclick="kurs()"><b style="font-size: 18.2px;">Показать max,min,SQR</b></button>
+
+                <div id="max" style="position: absolute; font-size: 30px; color: white; left: 935px; top: 510px;"></div>
+                
+                <div id="min" style="position: absolute; font-size: 30px; color: white; left: 935px; top: 560px;"></div>
+
+                <div id="average" style="position: absolute; font-size: 30px; color: white; left: 935px; top: 610px;"></div>
+
+                <div id="standardDeviation" style="position: absolute; font-size: 30px; color: white; left: 935px; top: 660px;"></div>
+
+        <table border="1" style="background-color: white; position: absolute; width: 15%; height: 10%; left: 85%; top: 13%;" >
+
+            <tr>
+                <td><b>Дата</b></td>
+                <td><b>Цены закрытия</b></td>
+            </tr>
+
+            <tr>
+
+                <td><b>28.04.2023</b></td>
+                <td><b>9,20</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>27.04.2023</b></td>
+                <td><b>9,35</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>26.04.2023</b></td>
+                <td><b>9,49</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>25.04.2023</b></td>
+                <td><b>9,60</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>24.04.2023</b></td>
+                <td><b>9,29</b></td>
+                
+            </tr>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>21.04.2023</b></td>
+                <td><b>9,38</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>20.04.2023</b></td>
+                <td><b>9,57</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>19.04.2023</b></td>
+                <td><b>9,58</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>18.04.2023</b></td>
+                <td><b>9,07</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>17.04.2023</b></td>
+                <td><b>9,09</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>14.04.2023</b></td>
+                <td><b>9,05</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>13.04.2023</b></td>
+                <td><b>9,07</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>12.04.2023</b></td>
+                <td><b>9,02</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>11.04.2023</b></td>
+                <td><b>9,08</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>10.04.2023</b></td>
+                <td><b>9,23</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>07.04.2023</b></td>
+                <td><b>9,21</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>06.04.2023</b></td>
+                <td><b>9,26</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>05.04.2023</b></td>
+                <td><b>9,34</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>04.04.2023</b></td>
+                <td><b>9,33</b></td>
+                
+            </tr>
+
+            <tr>
+                
+                <td><b>03.04.2023</b></td>
+                <td><b>9,38</b></td>
+                
+            </tr>
+
+        </table>
+
+        </main>
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>

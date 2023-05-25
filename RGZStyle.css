@@ -1,0 +1,523 @@
+.company {
+    color: white;
+    position: absolute;
+    left: 9cm;
+    top: 21px;
+    font-size: 30px;
+}
+.company:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.finance {
+    color: white;
+    position: absolute;
+    left: 14cm;
+    top: 21px;
+    font-size: 30px;
+}
+.finance:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contact {
+    color: white;
+    position: absolute;
+    left: 27cm;
+    top: 21px;
+    font-size: 30px;
+}
+.contact:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.video {
+    color: white;
+    position: absolute;
+    left: 35cm;
+    top: 21px;
+    font-size: 30px;
+}
+.video:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1680px;
+    height: 1050px;
+    z-index: -1;
+}
+#video-bg1 {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 42.1%;
+    transform: translate(-50%,-50%);
+}
+#video-bg2 {
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    top: 12%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#video-bg3 {
+    position: absolute;
+    z-index: 0;
+    width: 738px;
+    height: 410px;
+    top: 120px;
+    left: 457px;
+}
+.info {
+    position: fixed;
+    left: 8cm;
+    top: 5cm;
+    font-size: 57px;
+    color: white;
+}
+.sotrudnichaem {
+    position: absolute;
+    color: white;
+    font-size: 57px;
+    left: 26cm;
+    top: 248px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.companyInfo {
+    color: red;
+    position: absolute;
+    left: 6cm;
+    top: 64px;
+    font-size: 30px;
+}
+.companyInfo a {
+    color: red;
+}
+.companyInfo:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.financeInfo {
+    position: absolute;
+    left: 11cm;
+    top: 64px;
+    font-size: 30px;
+}
+.financeInfo a {
+    color: black;
+}
+.financeInfo:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contactInfo {
+    position: absolute;
+    left: 25.5cm;
+    top: 64px;
+    font-size: 30px;
+}
+.contactInfo a {
+    color: black;
+}
+.contactInfo:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.videoInfo {
+    position: absolute;
+    left: 34cm;
+    top: 64px;
+    font-size: 30px;
+}
+.videoInfo a {
+    color: black;
+}
+.videoInfo:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.companyData {
+    position: absolute;
+    left: 6cm;
+    top: 64px;
+    font-size: 30px;
+}
+.companyData a {
+    color: black;
+}
+
+.companyData:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.financeData {
+    position: absolute;
+    left: 11cm;
+    top: 64px;
+    font-size: 30px;
+}
+.financeData a {
+    color: black;
+}
+.financeData:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contactData {
+    color: red;
+    position: absolute;
+    left: 25.5cm;
+    top: 64px;
+    font-size: 30px;
+}
+.contactData a {
+    color: red;
+}
+.contactData:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.videoData {
+    position: absolute;
+    left: 34cm;
+    top: 64px;
+    font-size: 30px;
+}
+.videoData a {
+    color: black;
+}
+.videoData:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+#home {
+    cursor: pointer;
+}
+
+
+
+.stay {
+    position: fixed;
+    background-color: white ;
+    width: 2500px;
+    height: 92px;
+    margin: -8px;
+    z-index: 3;
+}
+.stay1 {
+    position: fixed;
+    background-color: white;
+    width: 2500px;
+    height: 92px;
+    margin: -8px;
+    z-index: 3;
+}
+
+
+
+
+.blockTest {
+    background-color: rgba(255, 255, 255, 0.144); 
+    position: absolute; 
+    height: 464px; 
+    width: 22cm; 
+    left: 2cm; 
+    top: 5cm;
+    border: 1px solid red;
+}
+.treygolnik {
+    width: 0px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 823px solid transparent;
+    border-top: 80px solid white;
+    left: 87px;
+    position: absolute;
+    top: 575px;
+    transform: rotate(180deg);
+}
+.treygolnik1 {
+    width: 530px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 242px solid transparent;
+    border-top: 46px solid rgb(226, 99, 99);
+    left: 910px;
+    position: absolute;
+    top: 647px;
+}
+.pryamougolnik {
+    width: 310px;
+    height: 0px;
+    border-left: 145px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 199px solid rgb(226, 99, 99);
+    left: 817px;
+    position: absolute;
+    top: 320px;
+    transform: rotate(270deg);
+    opacity: 0.9;
+}
+.treygolnik2 {
+    width: 0px;
+    height: 0px;
+    border-left: 45px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 199px solid rgb(226, 99, 99);
+    left: 1022px;
+    position: absolute;
+    top: 70.5px;
+    transform: rotate(90deg);
+    opacity: 0.9;
+}
+.blockTest1 {
+    background-color: white; 
+    position: absolute; 
+    height: 228px; 
+    width: 22cm; 
+    left: 77px; 
+    top: 655px;
+}
+
+
+
+.link {
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1020px;
+    top: 228px;
+    z-index: 2;
+    border-radius: 3px;
+}
+.link:hover {
+    background-color: black;
+}
+.link2 {
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1020px;
+    top: 288px;
+    z-index: 2;
+    border-radius: 3px;
+}
+.link2:hover {
+    background-color: black;
+}
+.link3 {
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1020px;
+    top: 348px;
+    z-index: 2;
+    border-radius: 3px;
+}
+.link3:hover {
+    background-color: black;
+}
+.link4 {
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1020px;
+    top: 408px;
+    z-index: 2;
+    border-radius: 3px;
+}
+.link4:hover {
+    background-color: black;
+}
+.inLink {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 5px;
+}
+
+
+
+.videoPanaram {
+    display: none;
+    background-color: #292929;
+    position: absolute;
+    width: 900px;
+    height: 530px;
+    left: 456px;
+    top: 82px;
+    border: 1px solid red;
+}
+#play-pause-button {
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 769px;
+    top: 584px;
+}
+.videoPlay {
+    color: red;
+    position: absolute;
+    left: 35cm;
+    top: 21px;
+    font-size: 30px;
+}
+.videoPlay a {
+    color: red;
+}
+.videoPlay:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.videoInPC{
+    position: absolute;
+    width: 789px;
+    height: 652px;
+    left: 432px;
+    top: 90px;
+}
+.footerPoushn {
+    background-color: white;
+    position: absolute;
+    width: 1680px;
+    height: 175px;
+    left: 0px;
+    top: 732px;
+}
+.linkForVideo {
+    background-color: white;
+    position: absolute; 
+    width: 30px; 
+    height: 30px; 
+    left: 400px; 
+    top: 750px; 
+    z-index: 2;
+}
+.linkForVideo:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+.linkForVideo1 {
+    background-color: white;
+    position: absolute; 
+    width: 30px; 
+    height: 30px; 
+    left: 550px; 
+    top: 750px; 
+    z-index: 2;
+}
+.linkForVideo1:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+.linkForVideo2 {
+    background-color: white;
+    position: absolute; 
+    width: 30px; 
+    height: 30px; 
+    left: 700px; 
+    top: 750px; 
+    z-index: 2;
+}
+.linkForVideo2:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+.linkForVideo3 {
+    background-color: white;
+    position: absolute; 
+    width: 30px; 
+    height: 30px; 
+    left: 850px; 
+    top: 750px; 
+    z-index: 2;
+}
+.linkForVideo3:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+.BLink:hover {
+    text-decoration: underline;
+}
+
+
+
+.financeAnalit a {
+    color: red;
+    position: absolute;
+    left: 14cm;
+    top: 21px;
+    font-size: 30px;
+}
+.financeAnalit a {
+    color: red;
+}
+.financeAnalit:hover a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* 
+Эстусы
+*/
+#EstusFull {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 70%;
+    top: 100%;
+    z-index: 5;
+}
+#EstusHalf {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 70%;
+    top: 100%;
+    z-index: 4;
+}
+#EstusAlmostEmpty {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 70%;
+    top: 100%;
+    z-index: 3;
+}
+#EstusEmpty {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 70%;
+    top: 100%;
+    z-index: 2;
+}
