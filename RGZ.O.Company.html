@@ -546,51 +546,45 @@
 
     <script>
 
+            let audioFull = new Audio('dark_souls_estus.mp3');
         function EstusFull() {
 
             let EstusFull = document.getElementById('EstusFull');
-            let audio = new Audio('dark_souls_estus.mp3');
 
-            EstusFull.addEventListener('click', () => {
-            audio.volume = 0.3
-            audio.play();});
+            audioFull.volume = 0.3
+            audioFull.play();
             EstusFull.style.display='none';
         }
-
+            let audioHalf = new Audio('dark_souls_estus.mp3');
         function EstusHalf() {
 
             let EstusHalf = document.getElementById('EstusHalf');
-            let audio = new Audio('dark_souls_estus.mp3');
 
-            EstusHalf.addEventListener('click', () => {
-            audio.volume = 0.3
-            audio.play();});
+            audioHalf.volume = 0.3
+            audioHalf.play();
             EstusHalf.style.display='none';
         }
 
+            let audioAlmostEmpty = new Audio('dark_souls_estus.mp3');
         function EstusAlmostEmpty() {
 
             let EstusAlmostEmpty = document.getElementById('EstusAlmostEmpty');
-            let audio = new Audio('dark_souls_estus.mp3');
-
-            EstusAlmostEmpty.addEventListener('click', () => {
-            audio.volume = 0.3
-            audio.play();});
+            
+            audioAlmostEmpty.volume = 0.3
+            audioAlmostEmpty.play();
             EstusAlmostEmpty.style.display='none';
 
         }
-
+            let audioBonefire = new Audio('bonefire.mp3');
         function bonefire() {
 
             let EstusFull = document.getElementById('EstusFull');
             let EstusHalf = document.getElementById('EstusHalf');
             let EstusAlmostEmpty = document.getElementById('EstusAlmostEmpty');
             let bonefire = document.getElementById('bonefire');
-            let audio = new Audio('bonefire.mp3');
-
-            bonefire.addEventListener('click', () => {
-            audio.volume = 0.2
-            audio.play();});
+           
+            audioBonefire.volume = 0.1
+            audioBonefire.play();
 
             EstusFull.style.display='block';
             EstusHalf.style.display='block';
