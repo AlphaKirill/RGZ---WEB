@@ -7,7 +7,7 @@
     <title>Страница 3</title>
     <link rel="stylesheet" href="RGZStyle.css">
     <video autoplay muted loop id="video-bg1">
-        <source src="D:/WEB/web-programming-lab/RGZ/20210225_OR.mp4" type="video/mp4">
+        <source src="D:/web-rezerv/RGZ---WEB/20210225_OR.mp4" type="video/mp4">
     </video>
 </head>
 <body style="background-color: rgb(243, 243, 243);">
@@ -125,9 +125,12 @@
 
                 <img id="EstusAlmostEmpty" onclick='EstusAlmostEmpty()' src="Эстус - почти пустой.png">
 
-                <img id="EstusEmpty" onclick='EstusEmpty()' src="Эстус - пустой.png">
+                <img id="EstusEmpty" src="Эстус - пустой.png">
 
             </div>
+
+                <img id="bonefire" onclick="bonefire()" src="bonfire.png.png">
+            
         </div>
         </div>
 
@@ -546,27 +549,49 @@
         function EstusFull() {
 
             let EstusFull = document.getElementById('EstusFull');
+            let audio = new Audio('dark_souls_estus.mp3');
+
+            EstusFull.addEventListener('click', () => {
+            audio.volume = 0.3
+            audio.play();});
             EstusFull.style.display='none';
         }
 
         function EstusHalf() {
 
-        let EstusHalf = document.getElementById('EstusHalf');
-        EstusHalf.style.display='none';
+            let EstusHalf = document.getElementById('EstusHalf');
+            let audio = new Audio('dark_souls_estus.mp3');
+
+            EstusHalf.addEventListener('click', () => {
+            audio.volume = 0.3
+            audio.play();});
+            EstusHalf.style.display='none';
         }
 
         function EstusAlmostEmpty() {
 
-        let EstusAlmostEmpty = document.getElementById('EstusAlmostEmpty');
-        EstusAlmostEmpty.style.display='none';
+            let EstusAlmostEmpty = document.getElementById('EstusAlmostEmpty');
+            let audio = new Audio('dark_souls_estus.mp3');
+
+            EstusAlmostEmpty.addEventListener('click', () => {
+            audio.volume = 0.3
+            audio.play();});
+            EstusAlmostEmpty.style.display='none';
+
         }
 
-        function EstusEmpty() {
+        function bonefire() {
 
             let EstusFull = document.getElementById('EstusFull');
             let EstusHalf = document.getElementById('EstusHalf');
             let EstusAlmostEmpty = document.getElementById('EstusAlmostEmpty');
-            let EstusEmpty = document.getElementById('EstusEmpty');
+            let bonefire = document.getElementById('bonefire');
+            let audio = new Audio('bonefire.mp3');
+
+            bonefire.addEventListener('click', () => {
+            audio.volume = 0.2
+            audio.play();});
+
             EstusFull.style.display='block';
             EstusHalf.style.display='block';
             EstusAlmostEmpty.style.display='block';
